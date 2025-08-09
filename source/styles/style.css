@@ -35,3 +35,14 @@ body {
   text-decoration: none;
   color: rgb(167, 252, 223);
 }
+
+.carousel-text {
+  color: rgb(167, 252, 223);
+  margin: auto auto;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
